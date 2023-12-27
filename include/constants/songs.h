@@ -492,6 +492,7 @@
 #define MUS_RG_TEACHY_TV_MENU       558 // MUS_RG_TVNOIZE
 #define END_MUS                     MUS_RG_TEACHY_TV_MENU
 
+
 #define PH_TRAP_BLEND               559
 #define PH_TRAP_HELD                560
 #define PH_TRAP_SOLO                561
@@ -543,6 +544,38 @@
 #define PH_NURSE_BLEND              607
 #define PH_NURSE_HELD               608
 #define PH_NURSE_SOLO               609
+#define DIALGAS                     610
+#define PALKIAS                     611
+#define MUS_VS_GROUDON              612
+#define MUS_GIRATINA                613
+#define MUS_TEST                    614
+#define MUS_ARCEUS                  615
+#define MUS_LEGIBATTLE_SINNO        616
+#define MUS_LAKE                    617
+#define MUS_ZEKROM                  618
+#define MUS_UNOVA                   619
+#define MUS_KYUREM                  620
+#define MUS_XY                      621
+#define MUS_ULTRA                   622
+#define MUS_LUNA                    623
+#define MUS_DUST                    624
+#define MUS_NECRO                   625
+#define MUS_PLASMA                  626
+#define MUS_NEO                     627
+#define MUS_RED                     628
+#define MUS_BIRDS                   629
+#define MUS_CASTLE                  630
+#define MUS_ENTEI                   631
+#define MUS_RAIKOU                  632
+#define MUS_BOSS2                   633
+#define MUS_CHAMPION_BATTLE_HGSS    634
+#define MUS_WATER                   635
+#define MUS_TREASURE                636
+#define MUS_VS_REGIGIGAS            637
+#define MUS_VS_REGIELEKI            638
+#define MUS_VS_MELOETTA             639   
+#define MUS_VOLO                    640
+
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

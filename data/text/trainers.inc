@@ -3789,7 +3789,7 @@ Route125_Text_NolenDefeat:
 	.string "I surrender!$"
 
 Route125_Text_NolenPostBattle:
-	.string "Sound travels faster in water than\n"
+	.string "Sound travels faster in Route125_Textwater than\n"
 	.string "it does through air.$"
 
 Route125_Text_StanIntro:
@@ -4779,3 +4779,15 @@ Route134_Text_HudsonPostBattle:
 	.string "Our boat drifted out to sea.\p"
 	.string "My buddy's a timid fellow, so I'm\n"
 	.string "worried about him.$"
+
+House_Text_ElenaIntro:
+	.string "Hello, I am Elena. Are you new to our\n"
+	.string "underground city? Well Nice to meet\l"
+	.string "you, do you want to battle?$"
+
+House_Text_ElenaDefeat:
+	.string "DAMMIT YOU WIN!!!$"
+
+House_Text_ElenaPostBattle:
+	.string "GO AWAY!$"
+

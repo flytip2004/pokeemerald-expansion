@@ -611,6 +611,38 @@ gSongTable::
 	song ph_nurse_blend, 2, 2
 	song ph_nurse_held, 2, 2
 	song ph_nurse_solo, 2, 2
+	song dialgas, 0, 0
+	song palkias, 0, 0
+	song mus_vs_groudon, 0, 0
+	song mus_giratina, 0, 0
+	song mus_test, 0, 0
+	song mus_arceus, 0, 0
+	song mus_legibattle_sinno, 0, 0
+	song mus_lake, 0, 0
+	song mus_zekrom, 0, 0
+	song mus_unova, 0, 0
+	song mus_kyurem, 0, 0
+	song mus_xy, 0, 0
+	song mus_ultra, 0, 0
+	song mus_luna, 0, 0
+	song mus_dust, 0, 0
+	song mus_necro, 0, 0
+	song mus_plasma, 0, 0
+	song mus_neo, 0, 0
+	song mus_red, 0, 0
+	song mus_birds, 0, 0
+	song mus_castle, 0, 0
+	song mus_entei, 0, 0
+	song mus_raikou, 0, 0
+	song mus_boss2, 0, 0
+	song mus_champion_battle_hgss, 0, 0
+	song mus_water, 0, 0
+	song mus_treasure, 0, 0
+	song mus_vs_regigigas, 0, 0
+	song mus_vs_regieleki, 0, 0
+	song mus_vs_meloetta, 0, 0
+	song mus_volo, 0, 0
+
 
 	.align 2
 dummy_song_header:

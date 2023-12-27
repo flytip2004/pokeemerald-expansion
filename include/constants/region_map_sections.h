@@ -214,7 +214,25 @@
 #define MAPSEC_ALTERING_CAVE                0xD2
 #define MAPSEC_NAVEL_ROCK                   0xD3
 #define MAPSEC_TRAINER_HILL                 0xD4
-#define MAPSEC_NONE                         0xD5
+#define MAPSEC_KINGDOM_CAVE                 0xD5
+#define MAPSEC_CAVE_TOWN                    0xD6
+#define MAPSEC_LAVA_RIVER                   0xD7
+#define MAPSEC_BLESSED_CITY                 0xD8
+#define MAPSEC_GODS_TOWER                   0xD9
+#define MAPSEC_UNOVA_ROUTE                  0xDA
+#define MAPSEC_UNDERWATER_ROUTE             0xDB
+#define MAPSEC_UNDERWATER_CAVE              0xDC
+#define MAPSEC_UNDERWATER_CAVE_SURFACE      0xDE
+#define MAPSEC_KANTO_BEACH                  0xDE
+#define MAPSEC_CONNECTING_OCEAN             0xDF
+#define MAPSEC_NEW_MEGATO_CITY              0xE1
+#define MAPSEC_TAU_CAVE                     0xE2
+#define MAPSEC_ULTRA_CAVE                   0xE3
+#define MAPSEC_PURITY_LAKE                  0xE4
+#define MAPSEC_ULTRA_METROPOLIS             0xE5
+#define MAPSEC_SUICUNE_RIVER                0xE6
+#define MAPSEC_NONE                         0xE7
+
 
 #define METLOC_SPECIAL_EGG                  0xFD
 #define METLOC_IN_GAME_TRADE                0xFE

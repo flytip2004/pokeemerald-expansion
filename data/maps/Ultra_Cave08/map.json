@@ -1,0 +1,164 @@
+{
+  "id": "MAP_ULTRA_CAVE08",
+  "name": "Ultra_Cave08",
+  "layout": "LAYOUT_ULTRA_CAVE08",
+  "music": "MUS_RG_MT_MOON",
+  "region_map_section": "MAPSEC_ULTRA_CAVE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_DEOXYS_TRIANGLE",
+      "x": 8,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Ultra7_EventScript_Guzzlord",
+      "flag": "FLAG_HIDE_GUZZLORD"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_DEOXYS_TRIANGLE",
+      "x": 73,
+      "y": 64,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Ultra7_EventScript_Stakataka",
+      "flag": "FLAG_HIDE_STAKATAKA"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 31,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE07",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 76,
+      "y": 72,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE07",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 77,
+      "y": 60,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE08",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 80,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE08",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 75,
+      "y": 41,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE08",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 12,
+      "y": 58,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE08",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 6,
+      "y": 75,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE08",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 46,
+      "y": 51,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE08",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 47,
+      "y": 40,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE08",
+      "dest_warp_id": "9"
+    },
+    {
+      "x": 26,
+      "y": 35,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE08",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 38,
+      "y": 70,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE08",
+      "dest_warp_id": "11"
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE08",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_METROPOLIS",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 34,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE08",
+      "dest_warp_id": "14"
+    },
+    {
+      "x": 80,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE08",
+      "dest_warp_id": "13"
+    },
+    {
+      "x": 33,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE09",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

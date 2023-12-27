@@ -1,0 +1,52 @@
+{
+  "id": "MAP_TAU_CAVE_MOUNTAIN_TOP",
+  "name": "Tau_Cave_Mountain_Top",
+  "layout": "LAYOUT_TAU_CAVE_MOUNTAIN_TOP",
+  "music": "MUS_SEALED_CHAMBER",
+  "region_map_section": "MAPSEC_TAU_CAVE",
+  "requires_flash": false,
+  "weather": "WEATHER_SNOW",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_TAU_CAVE_F3OUT",
+      "offset": 0,
+      "direction": "down"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_GROUDON_FRONT",
+      "x": 24,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Tau3_EventScript_Zekrom",
+      "flag": "FLAG_HIDE_ZEKROM"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 31,
+      "y": 38,
+      "elevation": 0,
+      "dest_map": "MAP_TAU_TOP_TERRAKION",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

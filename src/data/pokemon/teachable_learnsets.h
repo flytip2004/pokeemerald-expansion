@@ -29907,6 +29907,7 @@ static const u16 sGuzzlordTeachableLearnset[] = {
 };
 
 static const u16 sNecrozmaTeachableLearnset[] = {
+    MOVE_SHADOW_BALL,
     MOVE_AERIAL_ACE,
     MOVE_BRICK_BREAK,
     MOVE_CALM_MIND,

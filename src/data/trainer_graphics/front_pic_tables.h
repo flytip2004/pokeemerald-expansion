@@ -93,6 +93,11 @@ const struct MonCoords gTrainerFrontPicCoords[] =
     [TRAINER_PIC_LEAF] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_RS_BRENDAN] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_RS_MAY] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_ELENA] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_MELIODAS] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_LARA] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_ENRICO] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_CEDRIC] = {.size = 8, .y_offset = 1},
 };
 
 #define TRAINER_SPRITE(trainerPic, sprite, size) [TRAINER_PIC_##trainerPic] = {sprite, size, TRAINER_PIC_##trainerPic}
@@ -192,6 +197,11 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
     TRAINER_SPRITE(LEAF, gTrainerFrontPic_Leaf, TRAINER_PIC_SIZE),
     TRAINER_SPRITE(RS_BRENDAN, gTrainerFrontPic_RubySapphireBrendan, TRAINER_PIC_SIZE),
     TRAINER_SPRITE(RS_MAY, gTrainerFrontPic_RubySapphireMay, TRAINER_PIC_SIZE),
+    TRAINER_SPRITE(ELENA, gTrainerFrontPic_AquaAdminF, TRAINER_PIC_SIZE),
+    TRAINER_SPRITE(MELIODAS, gTrainerFrontPic_SchoolKidM, TRAINER_PIC_SIZE),
+    TRAINER_SPRITE(LARA, gTrainerFrontPic_SalonMaidenAnabel, TRAINER_PIC_SIZE),
+    TRAINER_SPRITE(ENRICO, gTrainerFrontPic_LeaderNorman, TRAINER_PIC_SIZE),
+    TRAINER_SPRITE(CEDRIC, gTrainerFrontPic_BlackBelt, TRAINER_PIC_SIZE),
 };
 
 #define TRAINER_PAL(trainerPic, pal) [TRAINER_PIC_##trainerPic] = {pal, TRAINER_PIC_##trainerPic}
@@ -291,4 +301,9 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
     TRAINER_PAL(LEAF, gTrainerPalette_Leaf),
     TRAINER_PAL(RS_BRENDAN, gTrainerPalette_RubySapphireBrendan),
     TRAINER_PAL(RS_MAY, gTrainerPalette_RubySapphireMay),
+    TRAINER_PAL(ELENA, gTrainerPalette_AquaAdminF),
+    TRAINER_PAL(MELIODAS, gTrainerPalette_SchoolKidM),
+    TRAINER_PAL(LARA, gTrainerPalette_SalonMaidenAnabel),
+    TRAINER_PAL(ENRICO, gTrainerPalette_LeaderNorman),
+    TRAINER_PAL(CEDRIC, gTrainerPalette_BlackBelt),
 };

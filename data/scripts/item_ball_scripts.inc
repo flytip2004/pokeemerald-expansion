@@ -657,3 +657,32 @@ MagmaHideout_4F_EventScript_ItemMaxRevive::
 MagmaHideout_3F_3R_EventScript_ItemEscapeRope::
 	finditem ITEM_ESCAPE_ROPE
 	end
+
+GODS3_ItemLustrousGlobe::
+	finditem ITEM_LUSTROUS_GLOBE
+	end
+
+GODS3_ItemLustrousOrb::
+	finditem ITEM_LUSTROUS_ORB
+	removeobject VAR_LAST_TALKED
+	end
+
+GODS6_ItemAdamantCrystal::
+	finditem ITEM_ADAMANT_CRYSTAL
+	removeobject VAR_LAST_TALKED
+	end
+
+GODS6_ItemAdamantOrb::
+	finditem ITEM_ADAMANT_ORB
+	removeobject VAR_LAST_TALKED
+	end
+
+GODS9_ItemGrisousOrb::
+	finditem ITEM_GRISEOUS_ORB
+	removeobject VAR_LAST_TALKED
+	end
+
+GODS9_ItemGrisouscore::
+	finditem ITEM_GRISEOUS_CORE
+	removeobject VAR_LAST_TALKED
+	end

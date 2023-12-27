@@ -1,0 +1,45 @@
+{
+  "id": "MAP_ROUTE02",
+  "name": "ROUTE02",
+  "layout": "LAYOUT_ROUTE02",
+  "music": "MUS_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_PURITY_LAKE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_LAKE_PURITY01",
+      "offset": 46,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE04",
+      "offset": 0,
+      "direction": "right"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 18,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_TAU_OUTSIDE_KYUREM",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

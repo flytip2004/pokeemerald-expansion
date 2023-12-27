@@ -591,7 +591,7 @@ void BattleSetup_StartLegendaryBattle(void)
     default:
     case SPECIES_GROUDON:
         gBattleTypeFlags |= BATTLE_TYPE_GROUDON;
-        CreateBattleStartTask(B_TRANSITION_GROUDON, MUS_VS_KYOGRE_GROUDON);
+        CreateBattleStartTask(B_TRANSITION_GROUDON, MUS_VS_GROUDON);
         break;
     case SPECIES_KYOGRE:
         gBattleTypeFlags |= BATTLE_TYPE_KYOGRE;
@@ -610,6 +610,144 @@ void BattleSetup_StartLegendaryBattle(void)
         break;
     case SPECIES_MEW:
         CreateBattleStartTask(B_TRANSITION_GRID_SQUARES, MUS_VS_MEW);
+        break;
+    case SPECIES_PALKIA:
+        CreateBattleStartTask(B_TRANSITION_GROUDON, MUS_TREASURE);
+        break;
+    case SPECIES_DIALGA:
+        CreateBattleStartTask(B_TRANSITION_KYOGRE, DIALGAS);
+        break;
+    case SPECIES_GIRATINA_ORIGIN:
+        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_GIRATINA);
+        break;
+    case SPECIES_ARCEUS:
+    case SPECIES_ARCEUS_FIGHTING:
+    case SPECIES_ARCEUS_FLYING:
+    case SPECIES_ARCEUS_POISON:
+    case SPECIES_ARCEUS_GROUND:
+    case SPECIES_ARCEUS_ROCK:
+    case SPECIES_ARCEUS_BUG:
+    case SPECIES_ARCEUS_GHOST:
+    case SPECIES_ARCEUS_STEEL:
+    case SPECIES_ARCEUS_FIRE:
+    case SPECIES_ARCEUS_WATER:
+    case SPECIES_ARCEUS_GRASS:
+    case SPECIES_ARCEUS_ELECTRIC:
+    case SPECIES_ARCEUS_PSYCHIC:
+    case SPECIES_ARCEUS_ICE:
+    case SPECIES_ARCEUS_DRAGON:
+    case SPECIES_ARCEUS_DARK:
+    case SPECIES_ARCEUS_FAIRY:
+        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_ARCEUS);
+        break;
+    case SPECIES_REGIGIGAS:
+        CreateBattleStartTask(B_TRANSITION_REGISTEEL, MUS_VS_REGIGIGAS);
+        break;
+    case SPECIES_REGIELEKI:
+        CreateBattleStartTask(B_TRANSITION_REGIROCK, MUS_VS_REGIELEKI);
+        break;
+    case SPECIES_HEATRAN:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_LEGIBATTLE_SINNO);
+        break;
+    case SPECIES_DARKRAI:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_LEGIBATTLE_SINNO);
+        break;
+    case SPECIES_SHAYMIN:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_LEGIBATTLE_SINNO);
+        break;
+    case SPECIES_MANAPHY:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_LEGIBATTLE_SINNO);
+        break;
+    case SPECIES_CRESSELIA:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_LEGIBATTLE_SINNO);
+        break;
+    case SPECIES_MESPRIT:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_LAKE);
+        break;
+    case SPECIES_UXIE:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_LAKE);
+        break;
+    case SPECIES_AZELF:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_LAKE);
+        break;
+    case SPECIES_RESHIRAM:
+    case SPECIES_ZEKROM:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_ZEKROM);
+        break;
+    case SPECIES_COBALION:
+    case SPECIES_TERRAKION:
+    case SPECIES_VIRIZION:
+    case SPECIES_TORNADUS:
+    case SPECIES_THUNDURUS:
+    case SPECIES_LANDORUS:
+    case SPECIES_GENESECT:
+    case SPECIES_VICTINI:
+    case SPECIES_KELDEO:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_UNOVA);
+        break;
+    case SPECIES_MELOETTA:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_MELOETTA);
+        break;
+    case SPECIES_KYUREM:
+    case SPECIES_KYUREM_BLACK:
+    case SPECIES_KYUREM_WHITE:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_KYUREM);
+        break;
+    case SPECIES_XERNEAS:
+    case SPECIES_YVELTAL:
+    case SPECIES_ZYGARDE:
+    case SPECIES_ZYGARDE_10:
+    case SPECIES_ZYGARDE_COMPLETE:
+    case SPECIES_ZYGARDE_10_POWER_CONSTRUCT:
+    case SPECIES_ZYGARDE_50_POWER_CONSTRUCT:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_XY);
+        break;
+    case SPECIES_NIHILEGO:
+    case SPECIES_BUZZWOLE:
+    case SPECIES_PHEROMOSA:
+    case SPECIES_XURKITREE:
+    case SPECIES_CELESTEELA:
+    case SPECIES_KARTANA:
+    case SPECIES_GUZZLORD:
+    case SPECIES_POIPOLE:
+    case SPECIES_NAGANADEL:
+    case SPECIES_STAKATAKA:
+    case SPECIES_BLACEPHALON:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_ULTRA);
+        break;
+    case SPECIES_LUNALA:
+    case SPECIES_SOLGALEO:
+    case SPECIES_NECROZMA:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_LUNA);
+        break;
+    case SPECIES_NECROZMA_DUSK_MANE:
+    case SPECIES_NECROZMA_DAWN_WINGS:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_WATER);
+        break;
+    case SPECIES_NECROZMA_ULTRA:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_NECRO);
+        break;
+    case SPECIES_TAPU_KOKO:
+    case SPECIES_TAPU_LELE:
+    case SPECIES_TAPU_FINI:
+    case SPECIES_TAPU_BULU:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_ULTRA);
+        break;
+    case SPECIES_ENTEI:
+    case SPECIES_RAIKOU:
+    case SPECIES_SUICUNE:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_C_VS_LEGEND_BEAST);
+        break;
+    case SPECIES_MOLTRES:
+    case SPECIES_ARTICUNO:
+    case SPECIES_ZAPDOS:
+    case SPECIES_ZAPDOS_GALARIAN:
+    case SPECIES_MOLTRES_GALARIAN:
+    case SPECIES_ARTICUNO_GALARIAN:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_LEGEND);
+        break;
+    case SPECIES_MEWTWO:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_LEGEND);
         break;
     }
 
@@ -868,11 +1006,22 @@ u8 GetTrainerBattleTransition(void)
             return B_TRANSITION_GLACIA;
         if (gTrainerBattleOpponent_A == TRAINER_DRAKE)
             return B_TRANSITION_DRAKE;
+        if (gTrainerBattleOpponent_A == TRAINER_MELIODAS)
+            return B_TRANSITION_SIDNEY;
+        if (gTrainerBattleOpponent_A == TRAINER_LARA)
+            return B_TRANSITION_PHOEBE;
+        if (gTrainerBattleOpponent_A == TRAINER_ENRICO)
+            return B_TRANSITION_ENRICO;
+        if (gTrainerBattleOpponent_A == TRAINER_CEDRIC)
+            return B_TRANSITION_DRAKE;
         return B_TRANSITION_CHAMPION;
     }
 
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_CHAMPION)
         return B_TRANSITION_CHAMPION;
+
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_LAST_CHAMPION)
+        return B_TRANSITION_LAST_CHAMPION;
 
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_TEAM_MAGMA
         || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_MAGMA_LEADER
