@@ -1,0 +1,60 @@
+{
+  "id": "MAP_TAU_OUTSIDE_KYUREM",
+  "name": "Tau_Outside_Kyurem",
+  "layout": "LAYOUT_TAU_OUTSIDE_KYUREM",
+  "music": "MUS_CAVE_OF_ORIGIN",
+  "region_map_section": "MAPSEC_TAU_CAVE",
+  "requires_flash": false,
+  "weather": "WEATHER_SNOW",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_RAYQUAZA",
+      "x": 23,
+      "y": 31,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Tau4_EventScript_Kyurem",
+      "flag": "FLAG_HIDE_KYUREM"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 25,
+      "y": 48,
+      "elevation": 0,
+      "dest_map": "MAP_TAU_CAVE_F12",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 25,
+      "y": 35,
+      "elevation": 0,
+      "dest_map": "MAP_TAU_KELDEO",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE02",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

@@ -220,7 +220,6 @@ $(TILESETGFXDIR)/secondary/mystery_events_house/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 509 -Wnum_tiles
 
 
-
 ### Fonts ###
 
 $(FONTGFXDIR)/small.latfont: $(FONTGFXDIR)/latin_small.png

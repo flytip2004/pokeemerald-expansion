@@ -1,0 +1,4 @@
+raw `
+KingdomCity_MapScripts::
+	.byte 0
+`

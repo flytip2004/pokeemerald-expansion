@@ -1,0 +1,53 @@
+{
+  "id": "MAP_ULTRA_CAVE05",
+  "name": "Ultra_Cave05",
+  "layout": "LAYOUT_ULTRA_CAVE05",
+  "music": "MUS_RG_MT_MOON",
+  "region_map_section": "MAPSEC_ULTRA_CAVE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_DEOXYS_TRIANGLE",
+      "x": 5,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Ultra4_EventScript_Buzzwole",
+      "flag": "FLAG_HIDE_BUZZWOLE"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 14,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE03",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE06",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

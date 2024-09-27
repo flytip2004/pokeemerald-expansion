@@ -51,7 +51,17 @@ LittlerootTown_OnTransition:
 	call_if_eq VAR_LITTLEROOT_RIVAL_STATE, 3, LittlerootTown_EventScript_SetRivalLeftForRoute103
 	call_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 1, LittlerootTown_EventScript_HideMapNamePopup
 	call_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2, LittlerootTown_EventScript_LeftLabAfterDexUpgrade
+	call_if_set FLAG_DEFEATED_CHAMP, Littleroottown_EventScript_HideGuard
+	call_if_unset FLAG_DEFEATED_CHAMP, Littlerootown_EventScript_TryShowGuard
 	end
+
+Littleroottown_EventScript_HideGuard:
+	setflag FLAG_HIDE_GUARD
+	return
+Littlerootown_EventScript_TryShowGuard:
+	goto_if_set FLAG_DEFEATED_CHAMP, Common_EventScript_NopReturn
+	clearflag FLAG_HIDE_GUARD
+	return
 
 LittlerootTown_EventScript_LeftLabAfterDexUpgrade::
 	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 3
@@ -721,6 +731,10 @@ LittlerootTown_EventScript_MomReturnHomeFemale5::
 	waitdooranim
 	return
 
+LittlerootTown_EventScript_KingdomCaveGuard::
+	msgbox LittlerootTown_Text_ThisIsKingdomCave, MSGBOX_NPC
+	end
+
 LittlerootTown_Movement_MomApproachPlayer0:
 	walk_up
 	walk_up
@@ -1019,3 +1033,27 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
 
+LittlerootTown_Text_ThisIsKingdomCave:
+    .string "This is KINGDOM CAVE.\p"
+    .string "We don't know what horrors live\n"
+    .string "beyoned there.\p"
+    .string "It takes a very special TRAINER to\n"
+    .string "be allowed inside there.\p"
+    .string "You'd have to be strong enough to\n"
+    .string "become the POKéMON LEAGUE\l"
+    .string "CHAMPION for starters.\p"
+    .string "That would be proof enough for me.\p"
+	.string "I let you on a secret between\n"
+	.string "you and me i FUCKING hate my job.\p"
+	.string "It's so annoying having to guard\n"
+	.string "this cave just in case a weirdo\p"
+	.string "like you or the clowns from\n"
+	.string "Team Aqua and Magma comes by\p"
+	.string "and thinks hmmmm lets go to\n"
+	.string "a very dangerous place, where we\p"
+	.string "could die.\p"
+	.string "I mean what the actual FUCK is wrong\n"
+	.string "with you people.\p"
+	.string "Oh sorry for ranting about my anger\n"
+	.string "come back when youre stronger little one.\p"
+    .string "made a great achievement.$"

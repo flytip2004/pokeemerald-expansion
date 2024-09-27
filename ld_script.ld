@@ -1245,6 +1245,37 @@ SECTIONS {
         sound/songs/midi/ph_nurse_blend.o(.rodata);
         sound/songs/midi/ph_nurse_held.o(.rodata);
         sound/songs/midi/ph_nurse_solo.o(.rodata);
+        sound/songs/midi/dialgas.o(.rodata);
+        sound/songs/midi/palkias.o(.rodata);
+        sound/songs/midi/mus_vs_groudon.o(.rodata);
+        sound/songs/midi/mus_giratina.o(.rodata);
+        sound/songs/midi/mus_test.o(.rodata);
+        sound/songs/midi/mus_arceus.o(.rodata);
+        sound/songs/midi/mus_legibattle_sinno.o(.rodata);
+        sound/songs/midi/mus_lake.o(.rodata);
+        sound/songs/midi/mus_zekrom.o(.rodata);
+        sound/songs/midi/mus_unova.o(.rodata);
+        sound/songs/midi/mus_kyurem.o(.rodata);
+        sound/songs/midi/mus_xy.o(.rodata);
+        sound/songs/midi/mus_ultra.o(.rodata);
+        sound/songs/midi/mus_luna.o(.rodata);
+        sound/songs/midi/mus_dust.o(.rodata);
+        sound/songs/midi/mus_necro.o(.rodata);
+        sound/songs/midi/mus_plasma.o(.rodata);
+        sound/songs/midi/mus_neo.o(.rodata);
+        sound/songs/midi/mus_red.o(.rodata);
+        sound/songs/midi/mus_birds.o(.rodata);
+        sound/songs/midi/mus_castle.o(.rodata);
+        sound/songs/midi/mus_entei.o(.rodata);
+        sound/songs/midi/mus_raikou.o(.rodata);
+        sound/songs/midi/mus_boss2.o(.rodata);
+        sound/songs/midi/mus_champion_battle_hgss.o(.rodata);
+        sound/songs/midi/mus_water.o(.rodata);
+        sound/songs/midi/mus_treasure.o(.rodata);
+        sound/songs/midi/mus_vs_regigigas.o(.rodata);
+        sound/songs/midi/mus_vs_regieleki.o(.rodata);
+        sound/songs/midi/mus_vs_meloetta.o(.rodata);
+        sound/songs/midi/mus_volo.o(.rodata);
     } > ROM =0
 
     lib_rodata :

@@ -1,0 +1,45 @@
+{
+  "id": "MAP_LAKE_PURITY03",
+  "name": "Lake_Purity03",
+  "layout": "LAYOUT_LAKE_PURITY03",
+  "music": "MUS_LAKE",
+  "region_map_section": "MAPSEC_PURITY_LAKE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_LAKE_PURITY01",
+      "offset": -26,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_LAKE_PURITY02",
+      "offset": 24,
+      "direction": "up"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 18,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_PURITY_AZELF",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

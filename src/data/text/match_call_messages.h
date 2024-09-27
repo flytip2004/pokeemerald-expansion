@@ -388,6 +388,31 @@ const u8 gText_MatchCallChampion_Wallace_Pokemon[] = _("I prefer POKéMON of gra
 const u8 gText_MatchCallChampion_Wallace_Intro1[] = _("I represent beauty as");
 const u8 gText_MatchCallChampion_Wallace_Intro2[] = _("well as intelligence.");
 
+const u8 gText_MatchCallEliteFour_Meliodas_Strategy[] = _("Offense over defense!");
+const u8 gText_MatchCallEliteFour_Meliodas_Pokemon[] = _("I love flying through the sky.");
+const u8 gText_MatchCallEliteFour_Meliodas_Intro1[] = _("They said i could not reach");
+const u8 gText_MatchCallEliteFour_Meliodas_Intro2[] = _("high no i am one of the ELITE FOUR!");
+
+const u8 gText_MatchCallEliteFour_Michelle_Strategy[] = _("Confuse and confound.");
+const u8 gText_MatchCallEliteFour_Michelle_Pokemon[] = _("There's nothing definite.");
+const u8 gText_MatchCallEliteFour_Michelle_Intro1[] = _("I wonder what should");
+const u8 gText_MatchCallEliteFour_Michelle_Intro2[] = _("I eat later?");
+
+const u8 gText_MatchCallEliteFour_Enrico_Strategy[] = _("I use items for help.");
+const u8 gText_MatchCallEliteFour_Enrico_Pokemon[] = _("Flaming passion in a hard world!");
+const u8 gText_MatchCallEliteFour_Enrico_Intro1[] = _("The FIGHTING type can be better");
+const u8 gText_MatchCallEliteFour_Enrico_Intro2[] = _("trained in this rough land.");
+
+const u8 gText_MatchCallEliteFour_Cedric_Strategy[] = _("Harness strong abilities.");
+const u8 gText_MatchCallEliteFour_Cedric_Pokemon[] = _("The raw power of DRAGONS!");
+const u8 gText_MatchCallEliteFour_Cedric_Intro1[] = _("I dedicate myself to the");
+const u8 gText_MatchCallEliteFour_Cedric_Intro2[] = _("POKéMON that saved me.");
+
+const u8 gText_MatchCallChampion_Elena_Strategy[] = _("Chaos and Destruction.");
+const u8 gText_MatchCallChampion_Elena_Pokemon[] = _("I prefer POKéMON of power.");
+const u8 gText_MatchCallChampion_Elena_Intro1[] = _("I represent strengh as");
+const u8 gText_MatchCallChampion_Elena_Intro2[] = _("well as intelligence.");
+
 const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_COUNT] =
 {
     [REMATCH_ROSE] = MCFLAVOR(AromaLady_Rose),

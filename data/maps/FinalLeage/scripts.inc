@@ -1,0 +1,101 @@
+.set LOCALID_NURSE, 1
+
+FinalLeage_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, FinalLeage_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+FinalLeage_OnTransition::
+	setrespawn HEAL_LOCATION_CLIFFSIDE_CITY
+	end
+
+Pokecenter_Employee_Liga::
+	setvar VAR_0x800B, LOCALID_NURSE
+	call Common_EventScript_PkmnCenterNurse
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
+FinalLeage_Mart_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart FinalLeage_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+.align 2
+FinalLeage_Pokemart:
+	.2byte ITEM_OVAL_CHARM 
+	.2byte ITEM_SHINY_CHARM 
+	.2byte ITEM_CATCHING_CHARM 
+	.2byte ITEM_EXP_CHARM
+	.2byte ITEM_ROTOM_CATALOG 
+	.2byte ITEM_GRACIDEA 
+	.2byte ITEM_REVEAL_GLASS 
+	.2byte ITEM_DNA_SPLICERS 
+	.2byte ITEM_ZYGARDE_CUBE 
+	.2byte ITEM_PRISON_BOTTLE 
+	.2byte ITEM_N_SOLARIZER 
+	.2byte ITEM_N_LUNARIZER 
+	.2byte ITEM_REINS_OF_UNITY 
+	.2byte ITEM_MEGA_RING 
+	.2byte ITEM_Z_POWER_RING 
+	.2byte ITEM_DYNAMAX_BAND 
+	.2byte ITEM_RUSTED_SWORD
+	.2byte ITEM_RUSTED_SHIELD 
+	.2byte ITEM_RED_ORB 
+	.2byte ITEM_BLUE_ORB
+	.2byte ITEM_VENUSAURITE 
+	.2byte ITEM_CHARIZARDITE_X 
+	.2byte ITEM_CHARIZARDITE_Y 
+	.2byte ITEM_BLASTOISINITE 
+	.2byte ITEM_BEEDRILLITE 
+	.2byte ITEM_PIDGEOTITE 
+	.2byte ITEM_ALAKAZITE 
+	.2byte ITEM_SLOWBRONITE 
+	.2byte ITEM_GENGARITE 
+	.2byte ITEM_KANGASKHANITE 
+	.2byte ITEM_PINSIRITE 
+	.2byte ITEM_GYARADOSITE 
+	.2byte ITEM_AERODACTYLITE 
+	.2byte ITEM_MEWTWONITE_X 
+	.2byte ITEM_MEWTWONITE_Y 
+	.2byte ITEM_AMPHAROSITE 
+	.2byte ITEM_STEELIXITE 
+	.2byte ITEM_SCIZORITE 
+	.2byte ITEM_HERACRONITE 
+	.2byte ITEM_HOUNDOOMINITE 
+	.2byte ITEM_TYRANITARITE 
+	.2byte ITEM_SCEPTILITE 
+	.2byte ITEM_BLAZIKENITE 
+	.2byte ITEM_SWAMPERTITE 
+	.2byte ITEM_GARDEVOIRITE 
+	.2byte ITEM_SABLENITE 
+	.2byte ITEM_MAWILITE 
+	.2byte ITEM_AGGRONITE 
+	.2byte ITEM_MEDICHAMITE 
+	.2byte ITEM_MANECTITE 
+	.2byte ITEM_SHARPEDONITE 
+	.2byte ITEM_CAMERUPTITE 
+	.2byte ITEM_ALTARIANITE 
+	.2byte ITEM_BANETTITE 
+	.2byte ITEM_ABSOLITE 
+	.2byte ITEM_GLALITITE 
+	.2byte ITEM_SALAMENCITE 
+	.2byte ITEM_METAGROSSITE 
+	.2byte ITEM_LATIASITE 
+	.2byte ITEM_LATIOSITE 
+	.2byte ITEM_LOPUNNITE 
+	.2byte ITEM_GARCHOMPITE 
+	.2byte ITEM_LUCARIONITE 
+	.2byte ITEM_ABOMASITE 
+	.2byte ITEM_GALLADITE 
+	.2byte ITEM_AUDINITE 
+	.2byte ITEM_DIANCITE 
+	.2byte ITEM_NONE
+	release
+	end

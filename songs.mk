@@ -1262,3 +1262,103 @@ $(MID_SUBDIR)/se_m_leer.s: %.s: %.mid
 
 $(MID_SUBDIR)/se_dex_search.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G127 -v100 -P5
+
+$(MID_SUBDIR)/dialgas.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V090
+
+$(MID_SUBDIR)/palkias.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G200 -V090 
+
+$(MID_SUBDIR)/mus_vs_groudon.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V090 
+
+$(MID_SUBDIR)/mus_giratina.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_test.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_arceus.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_legibattle_sinno.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_lake.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_zekrom.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_unova.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_kyurem.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_xy.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_ultra.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_luna.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_dust.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_necro.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_plasma.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_neo.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_red.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_birds.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_castle.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -
+	
+$(MID_SUBDIR)/mus_entei.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_raikou.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_boss2.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_champion_battle_hgss.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_water.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_treasure.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_vs_REGIGIGAS.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G122 -V100
+
+$(MID_SUBDIR)/mus_vs_REGIELEKI.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G122 -V100
+
+$(MID_SUBDIR)/mus_vs_meloetta.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+$(MID_SUBDIR)/mus_volo.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V100
+
+
+
+
+
+
+

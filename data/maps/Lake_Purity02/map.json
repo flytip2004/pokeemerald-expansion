@@ -1,0 +1,62 @@
+{
+  "id": "MAP_LAKE_PURITY02",
+  "name": "Lake_Purity02",
+  "layout": "LAYOUT_LAKE_PURITY02",
+  "music": "MUS_LAKE",
+  "region_map_section": "MAPSEC_PURITY_LAKE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_LAKE_PURITY01",
+      "offset": 0,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_LAKE_PURITY03",
+      "offset": -24,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE04",
+      "offset": -32,
+      "direction": "up"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_DEOXYS_TRIANGLE",
+      "x": 46,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_SHAYMIN"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 21,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_PURITY_UXIE",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

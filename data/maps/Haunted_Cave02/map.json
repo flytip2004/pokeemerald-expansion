@@ -1,0 +1,128 @@
+{
+  "id": "MAP_HAUNTED_CAVE02",
+  "name": "Haunted_Cave02",
+  "layout": "LAYOUT_HAUNTED_CAVE02",
+  "music": "MUS_VICTORY_ROAD",
+  "region_map_section": "MAPSEC_ULTRA_METROPOLIS",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KYOGRE_FRONT",
+      "x": 13,
+      "y": 43,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_LUNALA"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 43,
+      "y": 39,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 72,
+      "y": 72,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 40,
+      "y": 51,
+      "elevation": 0,
+      "dest_map": "MAP_HAUNTED_CAVE",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 71,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_HAUNTED_CAVE02",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 55,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_HAUNTED_CAVE02",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 60,
+      "y": 71,
+      "elevation": 0,
+      "dest_map": "MAP_HAUNTED_CAVE02",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 13,
+      "y": 69,
+      "elevation": 0,
+      "dest_map": "MAP_HAUNTED_CAVE02",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 43,
+      "y": 64,
+      "elevation": 0,
+      "dest_map": "MAP_HAUNTED_CAVE02",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 14,
+      "y": 51,
+      "elevation": 0,
+      "dest_map": "MAP_HAUNTED_CAVE02",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 12,
+      "y": 73,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE05",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 20,
+      "y": 47,
+      "elevation": 0,
+      "item": "ITEM_LUNALIUM_Z",
+      "flag": "FLAG_HIDDEN_ITEM_HAUNTED_CAVE_LUNALIUMZ"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "MAP_ROUTE04",
+  "name": "ROUTE04",
+  "layout": "LAYOUT_ROUTE04",
+  "music": "MUS_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_PURITY_LAKE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE02",
+      "offset": 0,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_LAKE_PURITY01",
+      "offset": -14,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_LAKE_PURITY02",
+      "offset": 32,
+      "direction": "down"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 37,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_CAVE",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

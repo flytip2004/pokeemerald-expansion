@@ -379,6 +379,7 @@ const struct TrainerMoney gTrainerMoneyTable[] =
     {TRAINER_CLASS_HIKER, 10},
     {TRAINER_CLASS_YOUNG_COUPLE, 8},
     {TRAINER_CLASS_WINSTRATE, 10},
+    {TRAINER_CLASS_LAST_CHAMPION,50},
     {0xFF, 5}, // Any trainer class not listed above uses this
 };
 
@@ -405,6 +406,7 @@ static const u16 sTrainerBallTable[TRAINER_CLASS_COUNT] =
     [TRAINER_CLASS_SWIMMER_F] = ITEM_DIVE_BALL,
     [TRAINER_CLASS_COOLTRAINER_2] = ITEM_ULTRA_BALL,
     [TRAINER_CLASS_MAGMA_LEADER] = ITEM_MASTER_BALL,
+    [TRAINER_CLASS_LAST_CHAMPION] = ITEM_BEAST_BALL,
 };
 #endif
 
@@ -5215,6 +5217,7 @@ static void HandleEndTurn_BattleWon(void)
         {
         case TRAINER_CLASS_ELITE_FOUR:
         case TRAINER_CLASS_CHAMPION:
+        case TRAINER_CLASS_LAST_CHAMPION:
             PlayBGM(MUS_VICTORY_LEAGUE);
             break;
         case TRAINER_CLASS_TEAM_AQUA:

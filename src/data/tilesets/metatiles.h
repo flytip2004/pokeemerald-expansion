@@ -207,3 +207,31 @@ const u16 gMetatileAttributes_MysteryEventsHouse[] = INCBIN_U16("data/tilesets/s
 
 const u16 gMetatiles_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatiles.bin");
 const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatile_attributes.bin");
+
+const u16 gMetatiles_BRIDGELAVE[] = INCBIN_U16("data/tilesets/primary/bridgelave/metatiles.bin");
+const u16 gMetatileAttributes_BRIDGELAVE[] = INCBIN_U16("data/tilesets/primary/bridgelave/metatile_attributes.bin");
+
+const u16 gMetatiles_G[] = INCBIN_U16("data/tilesets/primary/g/metatiles.bin");
+const u16 gMetatileAttributes_G[] = INCBIN_U16("data/tilesets/primary/g/metatile_attributes.bin");
+
+const u16 gMetatiles_Lavandia[] = INCBIN_U16("data/tilesets/secondary/lavandia/metatiles.bin");
+const u16 gMetatileAttributes_Lavandia[] = INCBIN_U16("data/tilesets/secondary/lavandia/metatile_attributes.bin");
+
+const u16 gMetatiles_distortion[] = INCBIN_U16("data/tilesets/secondary/distortion/metatiles.bin");
+const u16 gMetatileAttributes_distortion[] = INCBIN_U16("data/tilesets/secondary/distortion/metatile_attributes.bin");
+
+const u16 gMetatiles_snow[] = INCBIN_U16("data/tilesets/secondary/snow/metatiles.bin");
+const u16 gMetatileAttributes_snow[] = INCBIN_U16("data/tilesets/secondary/snow/metatile_attributes.bin");
+
+const u16 gMetatiles_snow2[] = INCBIN_U16("data/tilesets/primary/snow_2/metatiles.bin");
+const u16 gMetatileAttributes_snow2[] = INCBIN_U16("data/tilesets/primary/snow_2/metatile_attributes.bin");
+
+const u16 gMetatiles_center[] = INCBIN_U16("data/tilesets/secondary/center/metatiles.bin");
+const u16 gMetatileAttributes_center[] = INCBIN_U16("data/tilesets/secondary/center/metatile_attributes.bin");
+
+const u16 gMetatiles_snow22[] = INCBIN_U16("data/tilesets/secondary/snow_22/metatiles.bin");
+const u16 gMetatileAttributes_snow22[] = INCBIN_U16("data/tilesets/secondary/snow_22/metatile_attributes.bin");
+
+
+const u16 gMetatiles_test[] = INCBIN_U16("data/tilesets/secondary/test/metatiles.bin");
+const u16 gMetatileAttributes_test[] = INCBIN_U16("data/tilesets/secondary/test/metatile_attributes.bin");

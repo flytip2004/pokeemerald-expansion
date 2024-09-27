@@ -1,0 +1,55 @@
+{
+  "id": "MAP_TAU_CAVE_F12",
+  "name": "TauCaveF12",
+  "layout": "LAYOUT_TAU_CAVE_F12",
+  "music": "MUS_SEALED_CHAMBER",
+  "region_map_section": "MAPSEC_TAU_CAVE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 19,
+      "y": 38,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE01",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 2,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_TAU_CAVE_F2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_TAU_OUTSIDE_KYUREM",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 32,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_TAU_CAVE_F1",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

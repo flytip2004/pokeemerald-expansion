@@ -629,6 +629,10 @@ EverGrandeCity_HallOfFame_EventScript_ResetEliteFour::
 	clearflag FLAG_DEFEATED_ELITE_4_PHOEBE
 	clearflag FLAG_DEFEATED_ELITE_4_GLACIA
 	clearflag FLAG_DEFEATED_ELITE_4_DRAKE
+	clearflag FLAG_DEFEATED_ELITE_4_MELIODAS   
+	clearflag FLAG_DEFEATED_ELITE_4_LARA
+	clearflag FLAG_DEFEATED_ELITE_4_ENRICO
+	clearflag FLAG_DEFEATED_ELITE_4_CEDRIC
 	setvar VAR_ELITE_4_STATE, 0
 	return
 
@@ -1067,3 +1071,213 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/Kingdom/scripts.inc"
+
+	.include "data/maps/Kingdom2/scripts.inc"
+
+	.include "data/maps/Kingdom3/scripts.inc"
+
+	.include "data/maps/KingdomCity/scripts.inc"
+
+	.include "data/maps/KingdomCenter/scripts.inc"
+
+	.include "data/maps/KingdomCenter2F/scripts.inc"
+
+	.include "data/maps/KingdomMart/scripts.inc"
+
+	.include "data/maps/KingdomGym/scripts.inc"
+
+	.include "data/maps/NewMap1/scripts.inc"
+
+	.include "data/maps/House2/scripts.inc"
+
+	.include "data/maps/House3/scripts.inc"
+
+	.include "data/maps/House4/scripts.inc"
+
+	.include "data/maps/MountainItem/scripts.inc"
+
+	.include "data/maps/LavaRiverF1/scripts.inc"
+
+	.include "data/maps/NewMap2/scripts.inc"
+
+	.include "data/maps/LavaRiverF12/scripts.inc"
+
+	.include "data/maps/LavaRiverF2/scripts.inc"
+
+	.include "data/maps/BLESSEDCITY/scripts.inc"
+
+	.include "data/maps/GOD1/scripts.inc"
+
+	.include "data/maps/GODS2/scripts.inc"
+
+	.include "data/maps/GODS3/scripts.inc"
+
+	.include "data/maps/GODS4/scripts.inc"
+
+	.include "data/maps/GODS5/scripts.inc"
+
+	.include "data/maps/GODS6/scripts.inc"
+
+	.include "data/maps/GODS7/scripts.inc"
+
+	.include "data/maps/GODS8/scripts.inc"
+
+	.include "data/maps/GODS9/scripts.inc"
+
+	.include "data/maps/Distortion/scripts.inc"
+
+	.include "data/maps/SnowyMountain/scripts.inc"
+
+	.include "data/maps/GODSTOP/scripts.inc"
+
+	.include "data/maps/RouteEinall/scripts.inc"
+
+	.include "data/maps/NewMap3/scripts.inc"
+
+	.include "data/maps/WaterRoute/scripts.inc"
+
+	.include "data/maps/Underwater1/scripts.inc"
+
+	.include "data/maps/underwatercave/scripts.inc"
+
+	.include "data/maps/Manaphy/scripts.inc"
+
+	.include "data/maps/Underwater2/scripts.inc"
+
+	.include "data/maps/NewWorld/scripts.inc"
+
+	.include "data/maps/NewCity/scripts.inc"
+
+	.include "data/maps/NewWorldCenter/scripts.inc"
+
+	.include "data/maps/NewWorldCenter2/scripts.inc"
+
+	.include "data/maps/BlessedCityCenter1f/scripts.inc"
+
+	.include "data/maps/BlessedCityCenterf2/scripts.inc"
+
+	.include "data/maps/ROUTE01/scripts.inc"
+
+	.include "data/maps/TauCaveF12/scripts.inc"
+
+	.include "data/maps/Tau_caveF2/scripts.inc"
+
+	.include "data/maps/Tau_CaveF3/scripts.inc"
+
+	.include "data/maps/Tau_CaveF3Out/scripts.inc"
+
+	.include "data/maps/Tau_Cave_Mountain_Top/scripts.inc"
+
+	.include "data/maps/TauF3_Cobalion/scripts.inc"
+
+	.include "data/maps/TauTop_Terrakion/scripts.inc"
+
+	.include "data/maps/Tau_Outside_Kyurem/scripts.inc"
+
+	.include "data/maps/Tau_Keldeo/scripts.inc"
+
+	.include "data/maps/Tau_Cave_F1/scripts.inc"
+
+	.include "data/maps/Tau_cave_u2/scripts.inc"
+
+	.include "data/maps/Tau_Cave_Verizion/scripts.inc"
+
+	.include "data/maps/Tau_Cave_Reshiram/scripts.inc"
+
+
+	.include "data/maps/ROUTE02/scripts.inc"
+
+	.include "data/maps/Lake_Purity01/scripts.inc"
+
+	.include "data/maps/Lake_Purity02/scripts.inc"
+
+	.include "data/maps/Lake_Purity03/scripts.inc"
+
+	.include "data/maps/Purity_Mesprit/scripts.inc"
+
+	.include "data/maps/Purity_Uxie/scripts.inc"
+
+	.include "data/maps/Purity_Azelf/scripts.inc"
+
+	.include "data/maps/Purity_Haunted_House_F1/scripts.inc"
+
+
+
+	.include "data/maps/ROUTE04/scripts.inc"
+
+	.include "data/maps/Ultra_Cave/scripts.inc"
+
+
+
+
+	.include "data/maps/Ultra_Metropolis/scripts.inc"
+
+	.include "data/maps/Suicune_River/scripts.inc"
+
+
+	.include "data/maps/NewMap4/scripts.inc"
+
+	.include "data/maps/Ultra_Cave03/scripts.inc"
+
+	.include "data/maps/Ultra_Cave04/scripts.inc"
+
+	.include "data/maps/Ultra_Cave05/scripts.inc"
+
+	.include "data/maps/Ultra_Cave06/scripts.inc"
+
+	.include "data/maps/Ultra_Cave07/scripts.inc"
+
+	.include "data/maps/Ultra_Cave08/scripts.inc"
+
+	.include "data/maps/Ultra_Cave09/scripts.inc"
+
+	.include "data/maps/Lightless_World/scripts.inc"
+
+	.include "data/maps/Lightless_world02/scripts.inc"
+
+	.include "data/maps/FinalLeage/scripts.inc"
+
+	.include "data/maps/Meliodas/scripts.inc"
+
+	.include "data/maps/Michelle/scripts.inc"
+
+	.include "data/maps/Enrico/scripts.inc"
+
+	.include "data/maps/Cedric/scripts.inc"
+
+	.include "data/maps/Elena/scripts.inc"
+
+	.include "data/maps/Meliodasshort/scripts.inc"
+
+	.include "data/maps/Michellshort/scripts.inc"
+
+	.include "data/maps/Enricoshort/scripts.inc"
+
+	.include "data/maps/Cedrichall/scripts.inc"
+
+	.include "data/maps/ElenaHall/scripts.inc"
+
+	.include "data/maps/SuicineCave/scripts.inc"
+
+	.include "data/maps/Haunted_Cave/scripts.inc"
+
+	.include "data/maps/Haunted_Cave02/scripts.inc"
+
+	.include "data/maps/Route05/scripts.inc"
+
+	.include "data/maps/NewMap5/scripts.inc"
+
+	.include "data/maps/CliffsideCity/scripts.inc"
+
+	.include "data/maps/NewMap6/scripts.inc"
+
+	.include "data/maps/NewMap7/scripts.inc"
+
+	.include "data/maps/Regieleki/scripts.inc"
+
+	.include "data/maps/NewMap8/scripts.inc"
+
+	.include "data/maps/Regidrago/scripts.inc"
+

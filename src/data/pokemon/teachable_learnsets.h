@@ -32848,6 +32848,7 @@ static const u16 sGuzzlordTeachableLearnset[] = {
 
 #if P_FAMILY_NECROZMA
 static const u16 sNecrozmaTeachableLearnset[] = {
+    MOVE_SHADOW_BALL,
     MOVE_AERIAL_ACE,
     MOVE_BRICK_BREAK,
     MOVE_CALM_MIND,
